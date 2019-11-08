@@ -1,0 +1,172 @@
+/*this my first real CSS project*/
+body{
+    font-family: 'Jomolhari', serif;
+    background: mintcream;
+    height: 100%;
+}
+
+.menu{
+    background: #2c2828;    
+    font-size: 18px;
+    list-style-type: none;
+    height: 60px;    
+    margin-top: 0px;
+    border-bottom: 3px solid rgb(56, 55, 54);  
+    padding: 10px;
+    opacity: .9;
+}
+
+.menu li{
+    display: inline-block;
+    background: #b40b0b;
+    border: 1px none;
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+    color: whitesmoke;
+    text-align: center;
+}
+/*this is to style the anchor tag in the unordered list*/
+.menu li a{
+    text-decoration: none;
+    text-align: center;
+    margin: 0px;
+    color: whitesmoke;
+    display: block;
+    padding: 5px;
+    
+}
+/*this is to add a hover effect*/
+.menu li a:hover{
+    color: blue;
+    
+}
+
+.segments{
+    margin-left: 40%;
+}
+
+.segments li{
+    background: rgb(175, 175, 174);
+    border-bottom: 1px solid black;    
+    width: 200px;
+    list-style-type: none;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    list-style-image: url(pics/icon.jfif);
+    
+}
+
+.segments li:hover{
+    background: rgb(167, 158, 158);
+    color: blue;
+    transform: rotate(3deg);    
+    font-size: 20px;
+}
+
+
+.effect{
+    background: rgb(175, 175, 174);
+    border-bottom: 3px solid rgb(161, 135, 135);    
+    width: 50%;
+    height: 200px;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 25%;
+    border: 1px solid rgb(54, 54, 53);
+    border-radius: 8px;
+} 
+/*selector . */
+
+.fa{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 10%;
+    width: 30px;
+    height: 30px;
+}
+.fa-yahoo{
+    background: #430297;
+}
+.fa-instagram{
+    background: #125688;
+}
+.fa-facebook{
+    background: #3b5998;
+}
+
+h1{
+    
+    font-size: 30px;
+    text-align: center;
+    background: rgb(56, 55, 54);
+    height: 60px;
+    color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-bottom: 5px solid rgb(206, 179, 179);
+}
+h2{
+    
+    text-align: center;
+    background: rgb(48, 42, 42);
+    color: white;
+    height: 30px;
+    width: 30%;
+    font-size: 20px;
+    padding: 3px;
+    margin-left: 35%;
+    border-bottom: 2px solid rgb(158, 151, 151);
+}
+h3{
+    color: rgb(39, 32, 32);
+    background-color: #d7d7dd;
+    width: 200px;
+    border: 5px solid #d7d7dd;
+    opacity: .7;
+}
+
+h4{
+    color: green;
+}
+h5{
+    color: black;
+}
+h6{
+    color: black;
+}
+img{
+    width: 200px;
+    border-radius: 5px;
+    border: 5px solid rgb(142, 185, 180);
+    padding: 3px;
+}
+
+/* selector # */
+#logo{
+    width: 150px;
+    border-radius: 5px;
+    border: 7px solid grey;
+    padding: 5px;
+    opacity: .9;
+    margin-bottom: 15px;
+}
+
+#footer{
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #67747a;
+    color: white;
+    font-size: 10px;
+
+}
+
+
